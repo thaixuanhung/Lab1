@@ -1,0 +1,18 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main(){
+	float x1, y1, x2, y2, HeSoGoc, KhoangCach;
+	cout<<"Nhap toa do 2 diem lan luot la\nx1,y1\nx2,y2 \n";
+	cin>>x1;
+	cin>>y1;
+	cin>>x2;
+	cin>>y2;
+	HeSoGoc=(y2-y1)/(x2-x1);
+
+	KhoangCach= sqrt((y2-y1)*(y2-y1)+(x2-x1)*(x2-x1));
+	cout<<"He so goc cua duong thang di qua hai diem do la "<<HeSoGoc;
+
+	cout<<"\nKhoang cach giua hai diem la "<<KhoangCach;
+	
+}
