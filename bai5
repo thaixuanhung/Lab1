@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main(){
+	int a,b, max, min;
+cout<<"Nhap lan luot 2 so nguyen \n";
+cin>>a;
+cin>>b;
+if (a>b){
+cout<<"max="<<a;
+cout<<"\nmin= "<<b;
+}
+else{
+cout<<"max= "<<b;
+cout<<"\nmin= "<<a;
+}
+}
