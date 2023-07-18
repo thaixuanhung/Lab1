@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+int main(){
+	int nam_nay= 2023, nam_sinh, tuoi;
+	cout<<"Nam sinh cua ban la\n";
+	cin>>nam_sinh;
+	tuoi= nam_nay - nam_sinh;
+	cout<<"ban sinh nam "<<nam_sinh;cout<<" vay tuoi cua ban la "<<tuoi; 	
+}
