@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main(){
+	float BanKinh, ChuVi, DienTich;
+	const float Pi=3.1415;
+	cout<<"Ban kinh duong tron la\n";
+	cin>>BanKinh;
+	ChuVi= 2*Pi*BanKinh;
+	DienTich= Pi*BanKinh*BanKinh;
+	cout<<"Chu vi duong tron co ban kinh "<<BanKinh;
+	cout<<"la "<<ChuVi; 	
+	cout<<"\nDien tich duong tron co ban kinh "<<BanKinh;
+	cout<<"la "<<DienTich; 
+}
