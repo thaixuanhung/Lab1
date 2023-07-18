@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int main(){
+	int ThoiGian, Gio, Phut, Giay;
+	cout<<"Nhap thoi gian cong viec tinh bang giay\n";
+	cin>>ThoiGian;
+if(ThoiGian>3600){
+	Gio= ThoiGian/3600;
+	Phut= (ThoiGian%3600)/60;
+	Giay= ThoiGian-Gio*3600-Phut*60;
+	cout<<" "<<Gio; cout<<":"<<Phut ; cout<<":"<<Giay;
+}
+else{
+	if(ThoiGian>60){
+		Gio=0;
+		Phut= ThoiGian/60;
+		Giay= ThoiGian%60;
+		cout<<"0"<<Gio; cout<<":"<<Phut ; cout<<":"<<Giay;
+	}
+	else{
+		Gio=0;
+		Phut=0;
+		Giay= ThoiGian;
+		cout<<"0"<<Gio; cout<<":0"<<Phut ; cout<<":"<<Giay;
+	}
+}
+
+}
