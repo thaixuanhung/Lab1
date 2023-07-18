@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+
+int LuaChon;
+cout << "Nhap 0 de doi tu ky tu sang ma ASCII\nNhap 1 de doi tu ma ASCII sang ky tu\n";
+cin >> LuaChon;
+if(LuaChon == 0){
+	char m;
+    cout<<"Nhap ky tu can doi \n";
+    cin >> m;
+    cout <<"Ky tu do trong bang ASCII co gia tri la\n" <<int(m);
+    return 0;
+}
+else{
+	if (LuaChon == 1){
+	int n;
+    cout<<"Nhap ma ASCII can doi \n";
+    cin >> n;
+    cout <<"Ky tu duoc doi la\n" <<char(n);
+    return 0;
+}else{cout<<"Chi co lua chon 1 hoac 0";
+return 0;
+}
+
+}
+}
