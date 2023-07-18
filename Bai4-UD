@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main(){
+	float r1, r2, r3, rtd;
+	cout<<"Nhap r1, r2, r3 lan luot la: \n";
+	cin>>r1;
+	cin>>r2;
+	cin>>r3;
+	rtd= 1/(1/r1+ 1/r2+ 1/r3);
+	cout<<"Tong tro tuong duong la: "<<rtd;
+return 0;
+}
